@@ -61,9 +61,9 @@ public abstract class CourseName {
     @Override
     public String toString()
     {
-        return "\nCourse Name: " +Coursename+ 
-                "\nStart Date: " +start_date+ 
-                "\nEnd Date: " +finish_date;
+        return "\nCourse Name:      " +Coursename+ 
+                "\nStart Date:      " +start_date+ 
+                "\nEnd Date:        " +finish_date;
     }
 
 }

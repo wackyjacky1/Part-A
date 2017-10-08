@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: UsernameJUnitTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.735 sec <<< FAILURE!
-test(UsernameJUnitTest)  Time elapsed: 0.415 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.146 sec <<< FAILURE!
+test(UsernameJUnitTest)  Time elapsed: 0.078 sec  <<< ERROR!
 org.joda.time.IllegalFieldValueException: Value 28 for monthOfYear must be in the range [1,12]
 	at org.joda.time.field.FieldUtils.verifyValueBounds(FieldUtils.java:252)
 	at org.joda.time.chrono.BasicChronology.getDateMidnightMillis(BasicChronology.java:631)
@@ -32,7 +32,7 @@ org.joda.time.IllegalFieldValueException: Value 28 for monthOfYear must be in th
 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
-	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:53)
+	at org.apache.maven.surefire.junit4.JUnit4TestSet.execute(JUnit4TestSet.java:45)
 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:123)
 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:104)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

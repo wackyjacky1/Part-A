@@ -108,11 +108,11 @@ public final class Student extends Modules {
         @Override
         public String toString()
         {
-            return "\n\nFirstname: " +fname+ 
-                    "\nLastname: " +lname+ 
-                    "\nDOB: " +DOB+ 
-                    "\nStudent ID: " +studentID+ 
-                    "\nAge: " +age +super.toString();
+            return "\n\nFirstname:      " +fname+ 
+                    "\nLastname:        " +lname+ 
+                    "\nDOB:             " +DOB+ 
+                    "\nStudent ID:      " +studentID+ 
+                    "\nAge:             " +age +super.toString();
         }
 
 }

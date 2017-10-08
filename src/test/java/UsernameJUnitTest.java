@@ -26,6 +26,6 @@ public class UsernameJUnitTest {
                 
 		Student s1 = new Student("Sean","Kelly","15 Nov 1996", 1443535, 20, "Computer Science and IT",s1_start_date , s1_finish_date, "Programming","CT213" );
 		String output = s1.getusername("Sean", "Kelly", 20);
-		assertEquals("SeanKelly25", output);
+		assertEquals("SeanKelly20", output);
 	}
 }

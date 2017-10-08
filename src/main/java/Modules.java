@@ -48,7 +48,7 @@ public class Modules extends CourseName {
     @Override
     public String toString()
     {
-        return "\nModule Name: " +ModuleName+ 
-                "\nModule ID: " +ModuleID +super.toString();
+        return "\nModule Name       " +ModuleName+ 
+                "\nModule ID:       " +ModuleID +super.toString();
     }
 }
